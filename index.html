@@ -241,13 +241,65 @@
             <li class="list-group-item">Curabitur magna neque</li>
           </ul>
           <div class="ml-3">
-            <a href="#" class="card-link">Maecenas</a>
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Modal</a>
             <a href="#" class="card-link">In ac purus</a>
           </div>
           <div class="card-footer text-muted">
             <p>Cras blandit</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Vestibulum egestas</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <!-- <p>
+            Cras eget tortor molestie, tempus urna convallis, feugiat velit.
+            Nam interdum, dolor sit amet elementum vestibulum, elit libero porta ex,
+            molestie elementum ipsum nulla quis tortor. Pellentesque sit amet mauris 
+            at lorem pharetra commodo. Aenean suscipit vestibulum gravida. Quisque egestas id arcu et tempus.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Morbi sit amet sem id leo posuere ultricies ut eget eros.
+            Nulla elementum tincidunt mi, nec volutpat quam. Morbi finibus porttitor egestas.
+          </p> -->
+
+          <!-- inserindo colunas no modal -->
+
+          <div class="container-fluid">
+
+            <div class="row">
+              <div class="col-6">
+                <h5>Quisque interdum massa eros</h5>
+                <p>Cras eget tortor molestie, tempus urna convallis, feugiat velit.
+                   Nam interdum, dolor sit amet elementum vestibulum,
+                   elit libero porta ex, molestie elementum ipsum nulla quis tortor.</p>
+              </div>
+
+              <div class="col-6">
+                <h5>Class aptent taciti sociosqu ad</h5>
+                <p>Integer id tortor faucibus, venenatis urna in, cursus ex. 
+                  Nunc accumsan in ligula nec viverra. Aenean dignissim porttitor lobortis.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
       </div>
     </div>
   </div>
